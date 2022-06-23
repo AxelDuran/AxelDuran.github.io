@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        
+    </style>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script language="javascript", src="back.js"></script>
+        <link rel="stylesheet" href="CSS/estilo.css">
+        <title>Jogo da matemática</title>
+    </head>
+    <body onload="get()">
+        <header>
+            <div class="lemenu">
+                <a class="lemenu" href="Menu.html">Menu</a>
+                <a class="lemenu" href="Creditos.html">Créditos</a>
+                <a class="lemenu" href="Comentarios.html">Comentários</a>
+            </div>
+        </header>
+        <div class="ob1">
+            <h1 style="text-align: center;">Questões</h1>
+            <p class="ob1">Questão 02: Qual é a soma das duas raizes reais da equação x² + 9x + 14 = 0?</p>
+            <br><br>
+            <form action="">
+                <input type="radio" id="la" name="la" value="49">
+                <label for="la">A) 5.</label>
+                <br><br>
+
+                <input type="radio" name="la" id="lb" value="120">
+                <label for="lb">B) -9.</label>
+                <br><br>
+
+                <input type="radio" name="la" id="lc" value="34">
+                <label for="lc">C) -5.</label>
+                <br><br>
+
+                <input type="radio" name="la" id="ld" value="62">
+                <label for="ld">D) 9.</label>
+                <br><br>
+
+                <button id="btn1" onclick="resposta(), store()"><a class="bt" href="pag3.html">Responder</a></button>
+            </form>
+        </div>
+    </body>
+</html>
