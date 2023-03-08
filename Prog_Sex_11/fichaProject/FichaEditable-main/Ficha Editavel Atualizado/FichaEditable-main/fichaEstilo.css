@@ -1,0 +1,97 @@
+.topBar{background-color: green;
+color: black;
+text-decoration: none;}
+
+p.topBar{font-size: 20;
+position: relative;
+left: 40%;
+top: -6;
+}
+
+body{background-color: rgb(14, 14, 14);
+}
+
+div.topBar{position: fixed;
+top: 0;
+left: 0;
+height: 50;
+width: 100%;
+z-index: 10;}
+
+a,p.topBar{padding: 0 10;
+float: left;
+}
+
+.PlInfo{background-color: black;
+color: green;
+line-break:anywhere;
+border: 2px solid green;}
+
+.P2Info{background-color: black;
+    color: green;
+    line-break:anywhere;
+    border: 2px solid green;}
+
+.P4Info{background-color: black;
+    color: green;
+    line-break:anywhere;
+    border: 2px solid green;}
+
+.P5Info{background-color: black;
+    color: green;
+    line-break:anywhere;
+    border: 2px solid green;}
+
+div.PlInfo{height: 310;
+width: 500;
+position: relative;
+top: 55;}
+
+div.P2Info{height: 310;
+    width: 500;
+    position: relative;
+    top: -259.5;
+    left: 518}
+
+p.PlInfo{font-size: 15;
+padding: 2;
+margin: 0;}
+
+#lvl{width: 100;
+display: inline;
+margin: 4px 20px 4px 4px;}
+
+div.P3Info{height: 310;
+    width: 500;
+    position: relative;
+    top: -211.5;
+    left: 295}
+
+div.P4Info{height: 310;
+    width: 500;
+    position: relative;
+    top: -243;
+}
+
+div.P4InfoB{position: relative;
+    left: 115;
+    top: -284.1;
+}
+
+div.P4InfoC{position: relative;
+    left: 120;
+    top: -283.5;
+}
+
+div.P4InfoD{position: relative;
+    left: 125;
+    top: -284.2;
+}
+
+div.P5Info{height: 310;
+    width: 500;
+    position: relative;
+    top: -1138;
+    left: 516;
+    overflow: auto;
+}

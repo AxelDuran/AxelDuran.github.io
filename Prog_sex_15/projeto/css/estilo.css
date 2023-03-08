@@ -1,0 +1,27 @@
+div.cbc{position: fixed;
+height: 80px;
+width: 100%;
+background-color: cornflowerblue;
+top: 0px;
+left: 0px;}
+
+body{margin-top: 80px;
+margin-left: 85px;}
+
+h1.hline{text-align: center;
+color: cornsilk;
+margin: 22.5px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+div.corpo{position: fixed;
+left: 0px;
+top: 80px;
+width: 80px;
+height: 100%;
+background-color: gray;}
+
+h1{text-align: center;}
+
+img.anuncio{position: relative;
+height: 100%;
+width: 100%;}
