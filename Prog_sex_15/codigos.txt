@@ -1,0 +1,101 @@
+//estrutura básica de um código em html
+<html>
+<style>
+
+</style>
+<head>
+
+</head>
+<body>
+
+</body>
+</html>
+
+-----------------------------------------------------------------------------------------
+
+//tags básicas
+<p></p> -> serve para colocar páragrafo
+
+<h1></h1> -> serve para colocar um cabeçalho
+
+<a></a> -> serve para criar um texto/link com outra página
+
+//outras tags
+<img> -> serve para colocar imagens na página
+
+<title></title> -> serve para colocar o nome da página e fica dentro do head
+
+<br> -> serve para quebrar/pular linha
+
+<button></button>
+
+<div></div> -> serve para criar uma seção na nossa página
+
+<input> -> serve para criar um botão, uma caixa de texto ou checkbox e etc.
+
+onclick="" -> Um atributo de HTML normalmente usado dentro da tag button ou input e serve pra chamar alguma ação ou função dentro do código.
+value="" -> é um atributo de HTML normalmente usado dentro das tags button e input do tipo button e serve para definir um valor a ser mostrado.
+
+-----------------------------------------------------------------------------------------
+
+//comandos de css
+Obs: a maioria desses comandos pode ser usada tanto dentro da tag ou na parte de <style> do seu código.
+
+<p style=""></p> -> O style serve para colocar elementos de estilo dentro da tag em que ele foi colocado
+-exemplos de uso dentro das tags
+	<p style="color: red;"></p> -> esse comando vai pintar a cor da letra de vermelho
+
+	<p style="text-align: center;"></p> -> esse comando centraliza o texto
+
+	<p style="font-size: 20px;"></p> -> esse comando aumenta ou diminui o tamanho da 		fonte
+
+	<p style="background-color: blue;"></p> -> esse comando muda a cor de fundo da 		tag em que ele esta
+
+<a href="url"></a> -> href é onde se coloca o link do site para onde você quer enviar o usuário. esse comando não funciona nas tags de texto padrão como a tag p e a h1
+
+<img src=""> -> src serve para colocar o caminho do arquivo do código da página ate o local da imagen que vai ser usada
+
+height -> Comando de css que serve para mudar a altura de uma imagem ou outro componente
+
+width -> Comando de css que serve para mudar a largura de uma imagem ou outro componente
+
+-exemplos de uso na área do <style></style>
+
+body{background-image: url("");} -> esse comando coloca como fundo uma imágem
+body{background-size: cover;} -> ele serve para definir o tamanho da imagen de fundo
+body{background-repeat: no-repeat;} -> serve para permitir a repetição da imagen ou não
+
+<tag id="exe"> -> cria uma identidade para a tag que o recebe
+tag#exe{} -> chama a id dentro da área de css.
+
+<link rel="stylesheet" href=""> -> cria uma conexão entre uma página de css basta colocar stylesheet no rel e o caminho para onde esta o arquivo de css no href
+
+tag{border: arg1:numero em px arg2:tipo de borda arg3:cor da borda} ->Cria uma borda em volta de um elemneto
+	tipos de borda: dotted - borda em pontos; dashed - borda em traços; solid - borda em linha; double - borda em linha dupla; groove - borda em 3D. depende da cor; ridge - borda em 3D. depende da cor; inset - borda 3D em inset. depende da cor; outset - borda 3D outset. depende da cor; none - sem borda; hidden - cria uma borda escondida
+
+//edição do button
+button{background-color: } ->muda a cor de fundo do button
+
+button{background-image: url("")} ->colocauma imagem de fundo no button mas a imagem sera cortada para caber no button
+
+button{border: } -> coloca uma borda em volta do button
+
+-----------------------------------------------------------------------------------------
+
+<tag id="ID"> -> esse atributo serve para identificar a tag do HTML no javascript
+
+var myVar -> serve para criar uma variável de nome da sua escolha
+
+myVar -> chama uma variável depois de ser criada
+
+function myFunc -> serve para criar uma função de nome da sua escolha
+
+myFunc() -> esse comando serve para chamar uma função, depois de ser criada, usando o nome dela
+
+document.getElementById("ID") -> faz referencia a uma tag do HTML no código de javascript através do atributo(id="ID")
+
+-----------------------------------------------------------------------------------------
+
+comandos de javascript
+
+window.location.href = "" -> comando usado para mandar o usuário para outra pagina

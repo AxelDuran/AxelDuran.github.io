@@ -1,0 +1,92 @@
+><html>
+    <head>
+        <link rel="stylesheet" href="fichaEstilo.css">
+        <script src="fichaEdit.js"></script>
+        <title>Ficha do jogador</title>
+    </head>
+    <body>
+        <div class="topBar">
+            <div class="topInside">
+
+                <p class="topBar">Gerador de Ficha Editavel</p>
+            
+            </div>
+        </div>
+        <div class="PlInfo">
+            <p class="PlInfo" id="nome">Nome:</p>
+            <input type="button" class="PlInfo" id="editName" value="Click To Edit" onclick="nameEdit()">
+            <br><br>
+            <p class="PlInfo" id="classe">Classe:</p>
+            <input type="button" class="PlInfo" id="editClass" value="Click To Edit" onclick="ClassEdit()">
+            <br><br>
+            <p class="PlInfo" id="raca">Raça: </p>
+            <input type="button" class="PlInfo" id="racaClass" value="Click To Edit" onclick="RacaEdit()">
+            <br><br>
+            <p id="lvl">Nível: </p><br>
+            <input class="PlInfo" type="button" value=" + " onclick="AddLevel()">
+            <input class="PlInfo" type="button" value=" - " onclick="RemoveLevel()">
+            <br>
+            <p id="xp">Xp: </p>
+            <input class="PlInfo" type="button" value=" +10 " onclick="AddXp10()">
+            <input class="PlInfo" type="button" value=" + " onclick="AddXp()">
+            <input class="PlInfo" type="button" value=" - " onclick="RemoveXp()">
+            <input class="PlInfo" type="button" value=" -10 " onclick="RemoveXp10()">
+        </div>
+
+
+        <div class="P2Info">
+            <p id="forca">Pontos de Força: </p>
+            <input class="P2Info" type="button" value=" + " onclick="AddForca()">
+            <input class="P2Info" type="button" value=" - " onclick="RemoveForca()">
+            <br>
+            <p id="destre">Pontos de Destreza: </p>
+            <input class="P2Info" type="button" value=" + " onclick="AddDestreza()">
+            <input class="P2Info" type="button" value=" - " onclick="RemoveDestreza()">
+            <br>
+            <p id="consti">Pontos de Constituição: </p>
+            <input class="P2Info" type="button" value=" + " onclick="AddConsti()">
+            <input class="P2Info" type="button" value=" - " onclick="RemoveConsti()">
+            <br>
+            <div class="P3Info">
+                <p id="intel">Pontos de Inteligencia: </p>
+                <input class="P2Info" type="button" value=" + " onclick="AddInte()">
+                <input class="P2Info" type="button" value=" - " onclick="RemoveInte()">
+                <br>
+                <p id="cari">Pontos de Carisma: </p>
+                <input class="P2Info" type="button" value=" + " onclick="AddCari()">
+                <input class="P2Info" type="button" value=" - " onclick="RemoveCari()">
+                <br>
+                <p id="sabe">Pontos de Sabedoria: </p>
+                <input class="P2Info" type="button" value=" + " onclick="AddSabe()">
+                <input class="P2Info" type="button" value=" - " onclick="RemoveSabe()">
+            </div>
+        </div>
+        
+        <div class="P4Info">
+            <div class="P4InfoA">
+            <p id="Acrobacia">Acrobacia: </p> <input class="P2Info" type="button" value="+" onclick=""> <input class="P2Info" type="button" value="-" onclick="">
+            <p id="Adestrar">Adestrar: </p> <input class="P2Info" type="button" value="+" onclick=""> <input class="P2Info" type="button" value="-" onclick="">
+            <p id="Arcana">Arcana: </p> <input class="P2Info" type="button" value="+" onclick=""> <input class="P2Info" type="button" value="-" onclick="">
+            <p id="Atletismo">Atletismo: </p> <input class="P2Info" type="button" value="+" onclick=""> <input class="P2Info" type="button" value="-" onclick="">
+            <div class="P4InfoB">
+            <p id="Enganacao">Enganação: </p> <input class="P2Info" type="button" value="+" onclick=""> <input class="P2Info" type="button" value="-" onclick="">
+            <p id="Intuicao">Intuição: </p> <input class="P2Info" type="button" value="+" onclick=""> <input class="P2Info" type="button" value="-" onclick="">
+            <p id="Intimidacao">Intimidação: </p> <input class="P2Info" type="button" value="+" onclick=""> <input class="P2Info" type="button" value="-" onclick="">
+            <p id="Sobrevivencia">Sobrevivencia: </p> <input class="P2Info" type="button" value="+" onclick=""> <input class="P2Info" type="button" value="-" onclick="">
+            <div class="P4InfoC">
+            <p id="Investigacao">Investigação: </p> <input class="P2Info" type="button" value="+" onclick=""> <input class="P2Info" type="button" value="-" onclick="">
+            <p id="Medicina">Medicina: </p> <input class="P2Info" type="button" value="+" onclick=""> <input class="P2Info" type="button" value="-" onclick="">
+            <p id="Natureza">Natureza: </p> <input class="P2Info" type="button" value="+" onclick=""> <input class="P2Info" type="button" value="-" onclick="">
+            <p id="Percepcao">Percepção: </p> <input class="P2Info" type="button" value="+" onclick=""> <input class="P2Info" type="button" value="-" onclick="">
+            <div class="P4InfoD">
+            <p id="Performance">Performance: </p> <input class="P2Info" type="button" value="+" onclick=""> <input class="P2Info" type="button" value="-" onclick="">
+            <p id="Persuasao">Persuasão: </p> <input class="P2Info" type="button" value="+" onclick=""> <input class="P2Info" type="button" value="-" onclick="">
+            <p id="Prestidigitacao">Prestidigitação: </p> <input class="P2Info" type="button" value="+" onclick=""> <input class="P2Info" type="button" value="-" onclick="">
+            <p id="Furtividade">Furtividade: </p> <input class="P2Info" type="button" value="+" onclick=""> <input class="P2Info" type="button" value="-" onclick="">
+            
+            </div>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>

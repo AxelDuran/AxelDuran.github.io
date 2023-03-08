@@ -1,0 +1,14 @@
+.div1{background-color: aquamarine;
+height: 10%;
+width: 100%;
+bottom: 0;
+position: fixed;}
+
+.div2{background-color: brown;
+height: 100%;
+width: 45%;
+position: fixed;
+top: 0;
+right: 0;}
+
+body{margin: 0;}

@@ -1,0 +1,99 @@
+><html>
+    <head>
+        <link rel="stylesheet" href="fichaEstilo.css">
+        <script src="fichaEdit.js"></script>
+        <title>Ficha do jogador</title>
+    </head>
+    <body>
+        <div class="topBar">
+            <div class="topInside">
+
+                <p class="topBar">Gerador de Ficha Editavel</p>
+            
+            </div>
+        </div>
+        <div class="PlInfo">
+            <p class="PlInfo" id="nome">Nome: Não Selecionado</p>
+            <input type="button" class="PlInfo" id="editName" value="Click To Edit" onclick="nameEdit()">
+            <br><br>
+            <p class="PlInfo" id="classe">Classe: Não Selecionado</p>
+            <input type="button" class="PlInfo" id="editClass" value="Click To Edit" onclick="ClassEdit()">
+            <br><br>
+            <p class="PlInfo" id="raca">Raça: Não Selecionado</p>
+            <input type="button" class="PlInfo" id="racaClass" value="Click To Edit" onclick="RacaEdit()">
+            <br><br>
+            <p id="lvl">Nível: 0</p><br>
+            <input class="PlInfo" type="button" value=" + " onclick="AddLevel()">
+            <input class="PlInfo" type="button" value=" - " onclick="RemoveLevel()">
+            <br>
+            <p id="xp">Xp: 0</p>
+            <input class="PlInfo" type="button" value=" +10 " onclick="AddXp10()">
+            <input class="PlInfo" type="button" value=" + " onclick="AddXp()">
+            <input class="PlInfo" type="button" value=" - " onclick="RemoveXp()">
+            <input class="PlInfo" type="button" value=" -10 " onclick="RemoveXp10()">
+        </div>
+
+
+        <div class="P2Info">
+            <p id="forca">Pontos de Força: 0</p>
+            <input class="P2Info" type="button" value=" + " onclick="AddForca()">
+            <input class="P2Info" type="button" value=" - " onclick="RemoveForca()">
+            <br>
+            <p id="destre">Pontos de Destreza: 0</p>
+            <input class="P2Info" type="button" value=" + " onclick="AddDestreza()">
+            <input class="P2Info" type="button" value=" - " onclick="RemoveDestreza()">
+            <br>
+            <p id="consti">Pontos de Constituição: 0</p>
+            <input class="P2Info" type="button" value=" + " onclick="AddConsti()">
+            <input class="P2Info" type="button" value=" - " onclick="RemoveConsti()">
+            <br>
+            <div class="P3Info">
+                <p id="intel">Pontos de Inteligencia: 0</p>
+                <input class="P2Info" type="button" value=" + " onclick="AddInte()">
+                <input class="P2Info" type="button" value=" - " onclick="RemoveInte()">
+                <br>
+                <p id="cari">Pontos de Carisma: 0</p>
+                <input class="P2Info" type="button" value=" + " onclick="AddCari()">
+                <input class="P2Info" type="button" value=" - " onclick="RemoveCari()">
+                <br>
+                <p id="sabe">Pontos de Sabedoria: 0</p>
+                <input class="P2Info" type="button" value=" + " onclick="AddSabe()">
+                <input class="P2Info" type="button" value=" - " onclick="RemoveSabe()">
+            </div>
+        </div>
+        
+        <div class="P4Info">
+            <div class="P4InfoA">
+            <p id="Acrobacia">Acrobacia: 0</p> <input class="P2Info" type="button" value="+" onclick="AddAcro()"> <input class="P2Info" type="button" value="-" onclick="ReAcro()">
+            <p id="Adestrar">Adestrar: 0</p> <input class="P2Info" type="button" value="+" onclick="AddAdes()"> <input class="P2Info" type="button" value="-" onclick="ReAdes()">
+            <p id="Arcana">Arcana: 0</p> <input class="P2Info" type="button" value="+" onclick="AddArca()"> <input class="P2Info" type="button" value="-" onclick="ReArca()">
+            <p id="Atletismo">Atletismo: 0</p> <input class="P2Info" type="button" value="+" onclick="AddAtle()"> <input class="P2Info" type="button" value="-" onclick="ReAtle()">
+            <div class="P4InfoB">
+            <p id="Enganacao">Enganação: 0</p> <input class="P2Info" type="button" value="+" onclick="AddEnga()"> <input class="P2Info" type="button" value="-" onclick="ReEnga()">
+            <p id="Intuicao">Intuição: 0</p> <input class="P2Info" type="button" value="+" onclick="Addintu()"> <input class="P2Info" type="button" value="-" onclick="Reintu()">
+            <p id="Intimidacao">Intimidação: 0</p> <input class="P2Info" type="button" value="+" onclick="Addinti()"> <input class="P2Info" type="button" value="-" onclick="Reinti()">
+            <p id="Sobrevivencia">Sobrevivencia: 0</p> <input class="P2Info" type="button" value="+" onclick="Addsobr()"> <input class="P2Info" type="button" value="-" onclick="Resobr()">
+            <div class="P4InfoC">
+            <p id="Investigacao">Investigação: 0</p> <input class="P2Info" type="button" value="+" onclick="Addinves()"> <input class="P2Info" type="button" value="-" onclick="Reinves()">
+            <p id="Medicina">Medicina: 0</p> <input class="P2Info" type="button" value="+" onclick="Addmedi()"> <input class="P2Info" type="button" value="-" onclick="Remedi()">
+            <p id="Natureza">Natureza: 0</p> <input class="P2Info" type="button" value="+" onclick="Addnatu()"> <input class="P2Info" type="button" value="-" onclick="Renatu()">
+            <p id="Percepcao">Percepção: 0</p> <input class="P2Info" type="button" value="+" onclick="Addperep()"> <input class="P2Info" type="button" value="-" onclick="Reperep()">
+            <div class="P4InfoD">
+            <p id="Performance">Performance: 0</p> <input class="P2Info" type="button" value="+" onclick="Addperfom()"> <input class="P2Info" type="button" value="-" onclick="Reperfom()">
+            <p id="Persuasao">Persuasão: 0</p> <input class="P2Info" type="button" value="+" onclick="AddPersu()"> <input class="P2Info" type="button" value="-" onclick="RePersu()">
+            <p id="Prestidigitacao">Prestidigitação: 0</p> <input class="P2Info" type="button" value="+" onclick="Addpres()"> <input class="P2Info" type="button" value="-" onclick="Repres()">
+            <p id="Furtividade">Furtividade: 0</p> <input class="P2Info" type="button" value="+" onclick="AddFurt()"> <input class="P2Info" type="button" value="-" onclick="ReFurt()">
+            
+            </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="P5Info"> 
+            <div id="itenBox" class="P5InfoA">
+                <input class="P2Info" type="button" value="Adicionar item" onclick="AddIten()">
+            </div>
+        </div>
+<!--tirar p5 info do p4 info e arrumar a posição-->
+    </body>
+</html>
